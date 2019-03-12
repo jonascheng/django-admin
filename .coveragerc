@@ -1,0 +1,8 @@
+[report]
+omit=
+    manage.py
+    tests.py
+    */migrations/*.py
+    */tests/*.py
+[xml]
+output=./reports/coverage.xml

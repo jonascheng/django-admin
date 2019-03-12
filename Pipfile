@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+rope = "*"
+isort = "*"
+yapf = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cacheops = "*"
+django-log-request-id = "*"
+django-request-logging = "*"
+gunicorn = "*"
+django-cors-headers = "*"
+logstash-formatter = "*"
+django-redis = "*"
+pytest-django = "*"
+pytest-cov = "*"
+requests = "*"
+psycopg2-binary = "*"
+language-tags = "*"
+boto3 = "*"
+mock = "*"
+drf-yasg = "*"
+
+[requires]
+python_version = "3.7"

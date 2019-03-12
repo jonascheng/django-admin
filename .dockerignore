@@ -1,0 +1,11 @@
+.git*
+docker-compose.yml
+__pycache__
+.pyc
+Dockerfile
+.coverage
+.DS_Store
+ansible
+Jenkinsfile
+postgres
+celerybeat-schedule*
