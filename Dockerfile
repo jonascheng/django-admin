@@ -29,7 +29,7 @@ ENV CONTAINER_VERSION ${version}
 # dev stage for conveinent development envrionment
 FROM base as dev
 RUN apk --update add --no-cache curl bash less
-RUN apk --update add --no-cache postgresql-client redis vim
+RUN apk --update add --no-cache postgresql-client redis
 
 ########################################
 # release stage
